@@ -1,0 +1,4 @@
+# How line endings should be handled across windows & unix systems
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
