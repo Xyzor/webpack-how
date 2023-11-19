@@ -16,6 +16,10 @@ module.exports = {
         // css-loader: responsible for import/resolve like statement resolution within CSS files, e.g.: @import, url()
         use: ["style-loader", "css-loader"],
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
+      },
     ],
   },
 };
