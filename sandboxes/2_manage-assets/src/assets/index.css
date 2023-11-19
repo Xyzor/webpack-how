@@ -1,7 +1,11 @@
 .text {
-  display: inline-block;
-  color: red;
+  display: block;
   background-image: url("./image.png");
-  width: 225px;
   height: 225px;
+  font-family: "custom-font";
+}
+
+@font-face {
+  font-family: "custom-font";
+  src: url("./font.ttf");
 }
