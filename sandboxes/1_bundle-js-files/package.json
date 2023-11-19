@@ -3,7 +3,8 @@
   "packageManager": "yarn@4.0.2",
   "private": true,
   "scripts": {
-    "start": "http-server ./dist -c-1 --cors"
+    "start": "http-server ./dist -c-1 --cors",
+    "build": "webpack"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
