@@ -1,5 +1,5 @@
 {
-  "name": "@webpack-how/1_bundle-js-files",
+  "name": "@webpack-how/2_manage-assets",
   "packageManager": "yarn@4.0.2",
   "private": true,
   "scripts": {
@@ -7,7 +7,9 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "css-loader": "^6.8.1",
     "http-server": "^14.1.1",
+    "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }
