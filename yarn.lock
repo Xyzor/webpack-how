@@ -291,9 +291,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@webpack-how/bundle-js-files@workspace:packages/bundle-js-files":
+"@webpack-how/bundle-js-files@workspace:sandboxes/bundle-js-files":
   version: 0.0.0-use.local
-  resolution: "@webpack-how/bundle-js-files@workspace:packages/bundle-js-files"
+  resolution: "@webpack-how/bundle-js-files@workspace:sandboxes/bundle-js-files"
   dependencies:
     http-server: "npm:^14.1.1"
     webpack: "npm:^5.89.0"
