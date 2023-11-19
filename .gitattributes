@@ -2,3 +2,7 @@
 * text=auto eol=lf
 *.{cmd,[cC][mM][dD]} text eol=crlf
 *.{bat,[bB][aA][tT]} text eol=crlf
+
+# This way Git won't bother showing massive diffs when each time you subsequently add or update them
+/.yarn/releases/** binary
+/.yarn/plugins/** binary
