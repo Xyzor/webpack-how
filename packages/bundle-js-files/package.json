@@ -1,0 +1,13 @@
+{
+  "name": "@webpack-how/bundle-js-files",
+  "packageManager": "yarn@4.0.2",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./dist -c-1 --cors"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
