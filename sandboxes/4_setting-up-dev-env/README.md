@@ -1,7 +1,6 @@
 ## How to Run
 
-1. `yarn build` generates the distributables into `dist`
-2. `yarn start` will use `http-server` to spin up a local webserver and serve `dist`.
+`yarn start` will automatically builds on change and serves /dist using a webserver.
 
 # Overview
 

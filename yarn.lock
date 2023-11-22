@@ -556,7 +556,18 @@ __metadata:
   resolution: "@webpack-how/4_setting-up-dev-env@workspace:sandboxes/4_setting-up-dev-env"
   dependencies:
     html-webpack-plugin: "npm:^5.5.3"
-    http-server: "npm:^14.1.1"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+    webpack-dev-server: "npm:^4.15.1"
+  languageName: unknown
+  linkType: soft
+
+"@webpack-how/5_code-splitting@workspace:sandboxes/5_code-splitting":
+  version: 0.0.0-use.local
+  resolution: "@webpack-how/5_code-splitting@workspace:sandboxes/5_code-splitting"
+  dependencies:
+    html-webpack-plugin: "npm:^5.5.3"
+    lodash: "npm:^4.17.21"
     webpack: "npm:^5.89.0"
     webpack-cli: "npm:^5.1.4"
     webpack-dev-server: "npm:^4.15.1"
