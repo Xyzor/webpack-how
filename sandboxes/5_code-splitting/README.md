@@ -35,6 +35,19 @@ While Split Chunks will only move node_modules dependencies out.
 
 If you run `yarn build-sc`, you'll see that lodash is in a separate bundle but print.js is still in both
 
+## Dynamic Imports
+
+There're 2 ways:
+
+- import() (new way)
+- require.ensure (old webpack-specific way)
+
+import() uses Promise in the background.
+
+DI is a good way to import something conditionally based on a variable
+
+**TODO: Continue with prefetching/preloading**
+
 # Advantage
 
 You could optimize load time by load prioritizing.
