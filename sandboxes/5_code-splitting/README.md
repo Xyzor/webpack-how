@@ -55,8 +55,6 @@ For details on priority and support refer to the doc
 
 **There's no example for this**
 
-**TODO bundle analysis**
-
 # Advantage
 
 You could optimize load time by load prioritizing

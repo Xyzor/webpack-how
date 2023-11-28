@@ -8,7 +8,8 @@
     "start-sc": "webpack serve --open --config split-chunks_webpack.config.js",
     "build-sc": "webpack --config split-chunks_webpack.config.js",
     "start-di": "webpack serve --open --config dynamic-imports_webpack.config.js",
-    "build-di": "webpack --config dynamic-imports_webpack.config.js"
+    "build-di": "webpack --config dynamic-imports_webpack.config.js",
+    "analyse": "webpack --config split-chunks_webpack.config.js --profile --json > stats.json"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",
