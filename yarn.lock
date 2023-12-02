@@ -574,6 +574,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@webpack-how/6_caching@workspace:sandboxes/6_caching":
+  version: 0.0.0-use.local
+  resolution: "@webpack-how/6_caching@workspace:sandboxes/6_caching"
+  dependencies:
+    html-webpack-plugin: "npm:^5.5.3"
+    lodash: "npm:^4.17.21"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+    webpack-dev-server: "npm:^4.15.1"
+  languageName: unknown
+  linkType: soft
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"

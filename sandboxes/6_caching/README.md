@@ -1,7 +1,9 @@
-## How to Run
+https://webpack.js.org/guides/caching/
 
-`yarn start` will automatically builds on change and serves /dist using a webserver
+Content driven caching. Until content changes, keep the cache.
 
-# Overview
+You can move webpack's runtime boilerplate out into it's own chunk
 
-# Advantage
+You can split your code into different chunks and have webpack generate a hash,
+based only on the content of that chunk.
+If that content doesn't change, the cache will remain, even if the rest of the codebase changes.

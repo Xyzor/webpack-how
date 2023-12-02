@@ -1,20 +1,22 @@
+/**
+ * Notice how the hash won't change even if you only import just the join.
+ * import { join } from "lodash";
+ *
+ * That means, webpack bundles the whole lodash source eventhough we're only using join.
+ * To improve on this, the Tree Shaking functionality will be necessary
+ */
 import _ from "lodash";
-import printMe from "./print.js";
+// import printMe from "./print.js";
 
 console.log(_.join(["Index", "module", "loaded!"], " "));
 
 function component() {
-  const element = document.createElement("div");
-  const btn = document.createElement("button");
+  const button = document.createElement("button");
 
-  element.innerHTML = "Hello";
+  button.innerHTML = "Click me and check the console!";
+  // button.onclick = printMe;
 
-  btn.innerHTML = "Click me and check the console!";
-  btn.onclick = printMe;
-
-  element.appendChild(btn);
-
-  return element;
+  return button;
 }
 
 document.body.appendChild(component());
