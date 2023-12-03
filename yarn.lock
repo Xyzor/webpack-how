@@ -586,6 +586,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@webpack-how/7_authoring-libraries@workspace:sandboxes/7_authoring-libraries":
+  version: 0.0.0-use.local
+  resolution: "@webpack-how/7_authoring-libraries@workspace:sandboxes/7_authoring-libraries"
+  dependencies:
+    lodash: "npm:^4.17.21"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
