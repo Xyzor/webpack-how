@@ -1,1 +1,1 @@
-Collection of sandboxes to learn about the different functionalities of webpack.
+Collection of sandboxes to learn about the different features of Webpack.
