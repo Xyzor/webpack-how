@@ -607,6 +607,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@webpack-how/9_tree-shaking@workspace:sandboxes/9_tree-shaking":
+  version: 0.0.0-use.local
+  resolution: "@webpack-how/9_tree-shaking@workspace:sandboxes/9_tree-shaking"
+  dependencies:
+    html-webpack-plugin: "npm:^5.5.4"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+    webpack-dev-server: "npm:^4.15.1"
+  languageName: unknown
+  linkType: soft
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -1983,6 +1994,21 @@ __metadata:
   peerDependencies:
     webpack: ^5.20.0
   checksum: 7ba0d0f87d08f5c4c51f821842d736ec1762940bc39798932528adaec1e9cca8f52944987b88789007f5706d15110edbdfa30df445d61c6628b02ebe163c4f42
+  languageName: node
+  linkType: hard
+
+"html-webpack-plugin@npm:^5.5.4":
+  version: 5.5.4
+  resolution: "html-webpack-plugin@npm:5.5.4"
+  dependencies:
+    "@types/html-minifier-terser": "npm:^6.0.0"
+    html-minifier-terser: "npm:^6.0.2"
+    lodash: "npm:^4.17.21"
+    pretty-error: "npm:^4.0.0"
+    tapable: "npm:^2.0.0"
+  peerDependencies:
+    webpack: ^5.20.0
+  checksum: fd7b9882a7b44b78711d3489fd571308372a915924c2e619ad8a08d9100a17ae8899a3d3bb1934c326d45bf942330a693206088ba80f292dd6574d9e33c67a43
   languageName: node
   linkType: hard
 
