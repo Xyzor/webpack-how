@@ -530,6 +530,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@webpack-how/11_shimming@workspace:sandboxes/11_shimming":
+  version: 0.0.0-use.local
+  resolution: "@webpack-how/11_shimming@workspace:sandboxes/11_shimming"
+  dependencies:
+    exports-loader: "npm:^4.0.0"
+    http-server: "npm:^14.1.1"
+    imports-loader: "npm:^4.0.1"
+    lodash: "npm:^4.17.21"
+    webpack: "npm:^5.89.0"
+    webpack-cli: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
 "@webpack-how/1_bundle-js-files@workspace:sandboxes/1_bundle-js-files":
   version: 0.0.0-use.local
   resolution: "@webpack-how/1_bundle-js-files@workspace:sandboxes/1_bundle-js-files"
@@ -1610,6 +1623,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exports-loader@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "exports-loader@npm:4.0.0"
+  dependencies:
+    source-map: "npm:^0.6.1"
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: af0aee1cf175d1b49c4e5d252c505aa8c83f5e7bba960ee71292a17a11858d2b0fd0370d6cefcec6092a71564c2540d490c7df458272651058d2c0cb485780a2
+  languageName: node
+  linkType: hard
+
 "express@npm:^4.17.3":
   version: 4.18.2
   resolution: "express@npm:4.18.2"
@@ -2197,6 +2221,18 @@ __metadata:
   bin:
     import-local-fixture: fixtures/cli.js
   checksum: c67ecea72f775fe8684ca3d057e54bdb2ae28c14bf261d2607c269c18ea0da7b730924c06262eca9aed4b8ab31e31d65bc60b50e7296c85908a56e2f7d41ecd2
+  languageName: node
+  linkType: hard
+
+"imports-loader@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "imports-loader@npm:4.0.1"
+  dependencies:
+    source-map: "npm:^0.6.1"
+    strip-comments: "npm:^2.0.1"
+  peerDependencies:
+    webpack: ^5.0.0
+  checksum: bdac46d0d03b89834079ecc443d8e2623b33e9d2c6ec06eb4f56621bec50d7cb3befb10fef621f127c395df5f0257ff8fc23c6d909b9b67be7f6e5bd28235481
   languageName: node
   linkType: hard
 
@@ -3683,7 +3719,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0, source-map@npm:~0.6.0":
+"source-map@npm:^0.6.0, source-map@npm:^0.6.1, source-map@npm:~0.6.0":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: ab55398007c5e5532957cb0beee2368529618ac0ab372d789806f5718123cc4367d57de3904b4e6a4170eb5a0b0f41373066d02ca0735a0c4d75c7d328d3e011
@@ -3795,6 +3831,13 @@ __metadata:
   dependencies:
     ansi-regex: "npm:^6.0.1"
   checksum: a198c3762e8832505328cbf9e8c8381de14a4fa50a4f9b2160138158ea88c0f5549fb50cb13c651c3088f47e63a108b34622ec18c0499b6c8c3a5ddf6b305ac4
+  languageName: node
+  linkType: hard
+
+"strip-comments@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "strip-comments@npm:2.0.1"
+  checksum: 984321b1ec47a531bdcfddd87f217590934e2d2f142198a080ec88588280239a5b58a81ca780730679b6195e52afef83673c6d6466c07c2277f71f44d7d9553d
   languageName: node
   linkType: hard
 
