@@ -4,7 +4,7 @@ function component() {
   const element = document.createElement("div");
 
   // 1st scenario
-  //   element.innerHTML = _.join(["Hello", "webpack"], " ");
+  element.innerHTML = _.join(["Hello", "webpack"], " ");
 
   // 2nd scenario
   // element.innerHTML = join(["Hello", "webpack"], " ");
@@ -13,8 +13,8 @@ function component() {
   // this.alert("Hmmm, this probably isn't a great idea...");
 
   // 4th scenario
-  window.alert(file);
-  parse();
+  //window.alert(file);
+  //parse();
 
   return element;
 }

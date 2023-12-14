@@ -11,7 +11,7 @@ module.exports = {
   // On the 1st instance of _ that webpack encounters, it'll include lodash
   // and provides it to all the modules that need it
   // 1st scenario
-  //   plugins: [new webpack.ProvidePlugin({ _: "lodash" })],
+  plugins: [new webpack.ProvidePlugin({ _: "lodash" })],
 
   // This would allow the tree-shaker functionality to drop all the rest of lodash
   // 2nd scenario
