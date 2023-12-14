@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // Tells TS to output inline source maps to the compiled JS files
+    // But this alone doesn't make those maps available in the bundles.
+    // For that the devtool has to specified in the webpack config.
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node"
+  }
+}
